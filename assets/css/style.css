@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Special paddings/margins/text*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:link {
+    text-decoration: none!important;
+}
+
+/*--------------------------------------------Header*/
+
+header {
+    background-color: rgba(8, 8, 8, 0.7);
+    font-family: "Exo", sans-serif;
+    line-height: 50px;
+    text-align: center;
+}
+
+#heading h1 {
+    font-size: 300%;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 32px 0 8px;
+}
+
+#heading h2 {
+    font-size: 100%;
+    color: #fafafa;
+    font-weight: 200;
+    margin: 0;
+}
+
+/*--------------------------------------------Navbar*/
+
+#navbar {
+    background-color: rgba(32, 32, 32, 0.9);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: none;
+    text-align: center
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar li a {
+    font-family: "Roboto", sans-serif;
+    color: #fafafa;
+    font-size: 150%;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 0 64px;
+    text-decoration: none;
+    display: inline;
+    line-height: 64px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#navbar li a:hover {
+    color: #ffdf00;
+}
+
+/*--#navbar li a:active {
+    border-bottom: 5px double #ffdf00;
+}*/
+
+/*--------------------------------------------About Us*/
+
+#hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/salon-chair-background.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#cover-text h2 {
+    letter-spacing: 2px;
+    font-family: "Exo", sans-serif;
+    text-decoration: underline;
+    
+    
+}
+
+#cover-text {
+    background-color: rgba(32,32,32,0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    color: #fafafa;
+    line-height: 110%;
+    width: 75%;
+    height: 55%;
+    border-radius: 5%;
+    padding: 20px 20px;
+    bottom: 35%;
+    left: 10%;
+    position: absolute;
+}
