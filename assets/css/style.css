@@ -79,12 +79,12 @@ header {
 /*--------------------------------------------About Us*/
 
 #hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/salon-chair-background.jpg");
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/salon-chair-background.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -98,22 +98,117 @@ header {
     letter-spacing: 2px;
     font-family: "Exo", sans-serif;
     text-decoration: underline;
-    
-    
+
+
 }
 
 #cover-text {
-    background-color: rgba(32,32,32,0.5);
+    background-color: rgba(32, 32, 32, 0.5);
     font-family: "Roboto", sans-serif;
-    font-size: 2vh;
+    font-size: 1.5vh;
     text-align: center;
     color: #fafafa;
-    line-height: 110%;
-    width: 75%;
-    height: 55%;
+    line-height: 100%;
+    width: 60%;
+    height: 60%;
     border-radius: 5%;
     padding: 20px 20px;
-    bottom: 35%;
+    bottom: 20%;
     left: 10%;
     position: absolute;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------Prices*/
+
+#prices {
+    background-color: rgba(128, 128, 128, 0.9);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5vh;
+    text-align: center;
+    color: #fafafa;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#prices h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Exo", sans-serif;
+    text-decoration: underline;
+    padding: 30px 0;
+    margin: 0;
+}
+
+
+#prices-list {
+    background-color: rgba(64, 64, 64, 0.5);
+    position: absolute;
+    width: 50%;
+    height: 55%;
+    left: 25%;
+    line-height: 150%;
+    display: inline-block;
+}
+
+#left-content {
+    float:left;
+    width: 50%;
+}
+
+#right-content {
+    float:right;
+    width: 50%;
+}
+
+#left-content p,
+#right-content p {
+    font-size: 1.25em;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding: 0.5em;
+    
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: rgba(8, 8, 8, 0.7);
+    line-height: 50px;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: "Exo", sans-serif;
+    font-size: 300%;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 30px 0;
+}
+
+#social-networks {
+    margin: 0;
+}
+
+#social-networks li {
+    display: inline;
+    
+}
+
+#social-networks li a {
+    color: #fafafa;
+    font-size: 3.5em;
+    padding: 0 64px;
+    line-height: 64px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#social-networks li a:hover {
+    color: #ffdf00;
 }
