@@ -48,4 +48,4 @@ Media
 All photos were taken from Pexels, a stock image library. And a slightly transparent filter was applied to the "About Us" hero image to lower the brightness
 
 Acknowledgements
-TBA
+I used the following tutorial on https://www.w3schools.com/howto/howto_css_four_columns.asp to learn how to set up my grid structure on the Gallery page.
