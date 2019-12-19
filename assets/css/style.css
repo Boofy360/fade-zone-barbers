@@ -88,7 +88,8 @@ header {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    position: relative
+    position: relative;
+    text-align: center
 }
 
 #cover-text h2 {
@@ -142,7 +143,7 @@ header {
 #prices-list {
     background-color: rgba(64, 64, 64, 0.5);
     width: 80%;
-    height: 55%;
+    height: 65%;
     line-height: 150%;
     display: inline-block;
     border: 10px double #afafaf;
@@ -171,7 +172,7 @@ header {
 
 #gallery {
     background-color: #afafaf;
-    clear:both;
+    clear: both;
     height: 100%;
     line-height: 0;
     column-count: 5;
@@ -180,6 +181,95 @@ header {
 
 #gallery img {
     width: 100%;
+}
+
+/*--------------------------------------------Contact*/
+
+#contact {
+    background-color: #afafaf;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    font-size: 1.5vh;
+    font-family: "Roboto", sans-serif;
+    color: #fafafa;
+}
+
+#contact h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Exo", sans-serif;
+    text-decoration: underline;
+    padding: 30px 0;
+    margin: 0;
+}
+
+#contact-overlay {
+    background-color: rgba(64, 64, 64, 0.5);
+    width: 75%;
+    height: 75%;
+    line-height: 150%;
+    display: inline-block;
+    border: 10px double #afafaf;
+}
+
+#left-contact {
+    float: left;
+    width: 50%;
+}
+
+#left-contact h2 {
+    padding-top: 75px;
+    padding-bottom: 0px
+}
+
+#right-contact {
+    float: right;
+    width: 50%;
+}
+
+#left-contact p {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+input {
+    background-color: rgba(64, 64, 64, 0.5);
+    color: #fafafa;
+    width: 75%;
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ffdf00;
+    cursor: text;
+}
+
+input[name=message] {
+    padding: 90px 12px;
+}
+
+input:focus {
+    background-color: #fafafa;
+    color: black;
+}
+
+input[type=submit] {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background-color: #ffdf00;
+    color: black;
 }
 
 /*--------------------------------------------Footer*/
