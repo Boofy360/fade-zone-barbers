@@ -1,51 +1,99 @@
-Fade Zone Barbers
-Stream One Project: User-Centric Frontend Development - Code Institute
+# Stream One Project - Fade Zone Barbers
 
-This is a website I have created for a fictitious barbershop known as "Fade Zone Barbers". I chose to create my own project to demonstrate my capabilities of HTML/CSS. The website contains a home page that includes content about the barbershop and the pricelist, the gallery page includes a functioning gallery to showcase some haircuts, and a contact page for the user to make an enquiry.
+This is a website I have created for a fictitious barbershop known as "Fade Zone Barbers". 
+I chose to create my own project idea to demonstrate my capabilities of HTML/CSS.
 
-UX
-User stories
-As a user I expect to have a positive emotional experience on the website.
+The website contains a home page that includes content about the barbershop and the pricelist. 
+The gallery page includes a masonry style gallery to showcase some of the barbershops haircuts.
+And the contact page for the user to make an enquiry or give feedback.
+ 
+## UX
 
-As a customer I expect to see content relative to the barbershop.
+This website is created for the owner of Fade Zone Barbers to attract more customers to the barbershop, my project helps them achieve this by providing a sleek and simple design that is pleasing to the eye.
 
-Strategy
-My goal in the design was to make the user feel connected with the barbershop, I endeavoured to have a minimalist approach to avoid overcrowding the page.
+As a customer I would want to see basic information about the barbershop and what they would charge for their services.
+I would also want a gallery to see the quality of their service, and in addition a contact page for me to get in touch with the barbershop if I had any further enquiries.
 
-Scope
-For customers, I wanted to create a website that will create the positive user experience that entices them to visit the shop.
 
-Structure
-I wanted the home page to contain important information about the barbershop so the user is greeted with this when they first load the website.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-Skeleton
-Home wireframe
+## Features
 
-Surface
-The monochrome color scheme was to provide a sleek and balanced structure to the website.
+I wanted the Home page to contain important information about the barbershop such as what it's about and the pricelist, so the user is greeted with this when they first load the website.
 
-Technologies
-HTML
-CSS
+I chose to go for a masonry approach when creating the Gallery page as I wanted to showcase a large number of images as examples of the types of haircuts the barbershop specializes in to the user, desktops will display these images in 5 columns, whereas smaller devices will collapse the page into 3 columns.
 
-Features
+The contact form has a simple layout, a box split into two sections, one contains basic contact information and the address, the other contains a standard contact form for the user to submit feedback.
+ 
+### Existing Features
+
+- Feature 1 - My first feature allows the user to interact with the navigational items by hovering the cursor over them.
+- Feature 2 - Similar to the navigational bar, the social media links in the footer also interact with the user when the cursor is hovered over.
+
+### Features Left to Implement
+
+- Feature idea - I would like to build a functioning form on the "Contact" page so that the user can submit feedback and it is sent accordingly to the barbershop.
+
+## Technologies Used
+
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- [FontAwesome](https://fontawesome.com/)
+    - The project uses **FontAwesome** to include the social media icons in the footer
+
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google Fonts** 
+
+
+## Testing
+
+1. Navigational Bar
+    1. Hover the cursor over any of the navigational links.
+    2. The hover pseudo class will transition the text from white to gold.
+    3. Once activated the page will load the relevant internal link in the same tab.
+
+2. Navigational Bar
+    1. Hover the cursor over any of the social media icons.
+    2. The hover pseudo class will transition the icon from white to gold.
+    3. Once activated the page will load the relevant external link in a separate tab.
+
+3. Contact Form Text Inputs
+    1. Go to the "Contact" page.
+    2. Activate any of the text input fields.
+    3. The background color will transition from black to white.
+
+4. Contact Form Submit Input
+    1. Go to the "Contact" page.
+    2. Hover the cursor over the input submit button.
+    3. The background color will transition from black to gold.
+    4. The font color will transition from white to black.
+
+The project has media queries that makes the following elements responsive:
+1. Header "Fade Zone Barbers"
+2. Footer "Social Media"
+3. Social Media Icons
+4. About Us cover text
+5. Price List
+6. Gallery layout
+7. Contact overlay layout
+
+One bug I have encountered is with the navigational bar. The navigational links seem to appear slightly off center, from what I can identify this is due to an issue with the size of the anchor tags.
+
+## Deployment
 TBA
 
-Features Left to Implement
-TBA
+## Credits
 
-Testing
-TBA
+### Content
 
-Deployment
-TBA
+- The "About Us" content in the home page section in this website was taken from [Headcase Barbers](https://www.headcase-barbers.com/.)
 
-Credits
-Content
-The "About Us" content in the home page section in this website were taken from https://www.headcase-barbers.com/.
+### Media
 
-Media
-All photos were taken from Pexels, a stock image library. And a slightly transparent filter was applied to the "About Us" hero image to lower the brightness
+- All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. And a slightly transparent filter was applied to the "About Us" hero image to lower the brightness.
 
-Acknowledgements
-I used the following tutorial on https://www.w3schools.com/howto/howto_css_four_columns.asp to learn how to set up my grid structure on the Gallery page.
+### Acknowledgements
+
+- I received a large majority of inspiration from the CSS Fundamentals Mini Project [Love Running](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/8b3e9adaef764e1d962a85668c799cdd/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%408b3e9adaef764e1d962a85668c799cdd).
+- My mid point review session with my mentor gave me the idea to amend the Gallery layout to a masonry style instead of the previous grid I was trying to achieve.
+- The Tutor support team offered me assistance that allowed me to align the "About Us" text in the center of the hero image on the Home page.

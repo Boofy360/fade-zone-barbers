@@ -35,6 +35,7 @@ header {
     color: #fafafa;
     font-weight: 200;
     margin: 0;
+    border-bottom: 4px solid #ffdf00;
 }
 
 /*--------------------------------------------Navbar*/
@@ -89,32 +90,28 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    text-align: center
 }
 
 #cover-text h2 {
     letter-spacing: 2px;
     font-family: "Exo", sans-serif;
     text-decoration: underline;
-
-
 }
 
 #cover-text {
     background-color: rgba(32, 32, 32, 0.5);
     font-family: "Roboto", sans-serif;
-    font-size: 1.5vh;
+    font-size: 16px;
     text-align: center;
     color: #fafafa;
     line-height: 100%;
     width: 60%;
-    height: 60%;
+    height: auto;
     border-radius: 5%;
     padding: 20px 20px;
-    bottom: 20%;
-    left: 10%;
-    position: absolute;
     margin: 0 auto;
+    position: relative;
+    top: 10%;
 }
 
 /*--------------------------------------------Prices*/
@@ -126,7 +123,7 @@ header {
     text-align: center;
     color: #fafafa;
     width: 100%;
-    height: 600px;
+    height: 50vh;
     position: relative;
 }
 
@@ -162,7 +159,7 @@ header {
 #left-content p,
 #right-content p {
     font-size: 1.25em;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 700;
     padding: 0.5em;
 
@@ -220,7 +217,7 @@ header {
 }
 
 #left-contact h2 {
-    padding-top: 75px;
+    padding-top: 30px;
     padding-bottom: 0px
 }
 
@@ -288,10 +285,12 @@ footer h1 {
     font-weight: 600;
     margin: 0;
     padding: 30px 0;
+    border-top: 4px solid #ffdf00;
 }
 
 #social-networks {
     margin: 0;
+    padding: 0;
 }
 
 #social-networks li {
@@ -312,4 +311,87 @@ footer h1 {
 
 #social-networks li a:hover {
     color: #ffdf00;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media (min-width:1921px) {
+
+    #cover-text {
+        font-size: 22px;
+        line-height: 18px
+    }
+
+}
+
+@media (max-width:768px) {
+
+    #gallery {
+        column-count: 3;
+    }
+
+    #contact-overlay {
+        padding: 10px
+    }
+
+    #contact {
+        width: 100%;
+        height: 1200px;
+    }
+
+    #left-contact,
+    #right-contact {
+        width: 100%;
+    }
+
+    #left-contact p {
+        padding: 0 10px;
+    }
+
+    #cover-text {
+        top: 5%;
+        font-size: 14px;
+        line-height: 16px;
+        width: 80%;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    #heading h1 {
+        font-size: 180%;
+    }
+
+    #prices {
+        height: 100%;
+    }
+
+    #cover-text {
+        width: 80%;
+        line-height: 14px;
+        font-size: 12px;
+    }
+    
+    #cover-text br {
+        display: none;
+    }
+
+    #prices-list {
+        width: 90%;
+        height: 90%;
+    }
+
+    #social-networks li a {
+        padding: 0 30px;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    footer h1 {
+        font-size: 250%;
+    }
+
 }
