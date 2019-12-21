@@ -86,6 +86,8 @@ This has now been fixed as my mentor identified the bug.
 Another issue that my test users and mentor identified was the white space between the gallery images and footer. I have attempted to troubleshoot this and debug the code
 but I was unable to find a solution to this problem.
 
+Finally when the navigational links are used too quickly it can cause the webpage to load slower, I believe this is due to the file size of the images.
+
 ## Deployment
 TBA
 
