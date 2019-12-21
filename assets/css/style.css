@@ -44,7 +44,6 @@ header {
     background-color: rgba(32, 32, 32, 0.9);
     list-style-type: none;
     margin: auto;
-    padding: 0;
     float: none;
     text-align: center
 }
@@ -56,10 +55,11 @@ header {
 #navbar li a {
     font-family: "Roboto", sans-serif;
     color: #fafafa;
-    font-size: 150%;
-    font-weight: 100;
+    font-size: 125%;
+    font-weight: 300;
     text-transform: uppercase;
-    padding: 0 64px;
+    padding: 0;
+    margin: 0 64px;
     text-decoration: none;
     display: inline;
     line-height: 64px;
@@ -73,6 +73,11 @@ header {
     color: #ffdf00;
 }
 
+.active {
+    color: #ffdf00!important;
+    font-size: 150%!important;
+    border-bottom: 1px solid #ffdf00;
+}
 
 /*--------------------------------------------About Us*/
 
@@ -176,6 +181,12 @@ header {
     column-gap: 0;
 }
 
+#gallery span {
+    width: 100%;
+    height: auto;
+    background-color: #afafaf;
+}
+
 #gallery img {
     width: 100%;
 }
@@ -188,7 +199,7 @@ header {
     height: 800px;
     position: relative;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: #fafafa;
 }
@@ -198,14 +209,13 @@ header {
     letter-spacing: 2px;
     font-family: "Exo", sans-serif;
     text-decoration: underline;
-    padding: 30px 0;
-    margin: 0;
 }
 
 #contact-overlay {
     background-color: rgba(64, 64, 64, 0.5);
     width: 75%;
     height: 75%;
+    margin-top: 100px;
     line-height: 150%;
     display: inline-block;
     border: 10px double #afafaf;
@@ -213,16 +223,13 @@ header {
 
 #left-contact {
     float: left;
+    padding-top: 125px;
     width: 50%;
-}
-
-#left-contact h2 {
-    padding-top: 30px;
-    padding-bottom: 0px
 }
 
 #right-contact {
     float: right;
+    padding-top: 75px;
     width: 50%;
 }
 
@@ -279,7 +286,7 @@ footer {
 
 footer h1 {
     font-family: "Exo", sans-serif;
-    font-size: 300%;
+    font-size: 200%;
     letter-spacing: 4px;
     color: #fff;
     font-weight: 600;
@@ -300,9 +307,8 @@ footer h1 {
 
 #social-networks li a {
     color: #fafafa;
-    font-size: 3.5em;
+    font-size: 3em;
     padding: 0 64px;
-    line-height: 64px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -321,7 +327,6 @@ footer h1 {
         font-size: 22px;
         line-height: 18px
     }
-
 }
 
 @media (max-width:768px) {
@@ -342,6 +347,7 @@ footer h1 {
     #left-contact,
     #right-contact {
         width: 100%;
+        padding-top: 0
     }
 
     #left-contact p {
@@ -354,13 +360,20 @@ footer h1 {
         line-height: 16px;
         width: 80%;
     }
-
 }
 
 @media (max-width:425px) {
 
     #heading h1 {
         font-size: 180%;
+    }
+
+    #navbar {
+        padding: 0;
+    }
+
+    #navbar li {
+        width: 100%;
     }
 
     #prices {
@@ -372,7 +385,7 @@ footer h1 {
         line-height: 14px;
         font-size: 12px;
     }
-    
+
     #cover-text br {
         display: none;
     }
@@ -385,13 +398,15 @@ footer h1 {
     #social-networks li a {
         padding: 0 30px;
     }
-
 }
 
-@media (max-width:320px) {
+@media (max-width:375px) {
+
+    #contact {
+        font-size: 14px;
+    }
 
     footer h1 {
         font-size: 250%;
     }
-
 }

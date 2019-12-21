@@ -33,17 +33,15 @@ The contact form has a simple layout, a box split into two sections, one contain
 ### Features Left to Implement
 
 - Feature idea - I would like to build a functioning form on the "Contact" page so that the user can submit feedback and it is sent accordingly to the barbershop.
+- Feature idea - I would like to implement JavaScript to achieve a modal whereby when a gallery image is selected it will enlarge to the screen.
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [FontAwesome](https://fontawesome.com/)
     - The project uses **FontAwesome** to include the social media icons in the footer
 
 - [Google Fonts](https://fonts.google.com/)
-    - The project uses **Google Fonts** 
-
+    - The project uses **Google Fonts** to achieve fonts more relevant to the styling of the webpage.
 
 ## Testing
 
@@ -53,16 +51,21 @@ In this section, you should mention all of the languages, frameworks, libraries,
     3. Once activated the page will load the relevant internal link in the same tab.
 
 2. Navigational Bar
+    1. Navigate to any of the three pages.
+    2. The "active" class will be applied to the link relevant to the page the user is on.
+    3. Font size is increased, gold color applied to the text, and a gold bottom border will also apply.
+
+3. Social Media Icons
     1. Hover the cursor over any of the social media icons.
     2. The hover pseudo class will transition the icon from white to gold.
     3. Once activated the page will load the relevant external link in a separate tab.
 
-3. Contact Form Text Inputs
+4. Contact Form Text Inputs
     1. Go to the "Contact" page.
     2. Activate any of the text input fields.
     3. The background color will transition from black to white.
 
-4. Contact Form Submit Input
+5. Contact Form Submit Input
     1. Go to the "Contact" page.
     2. Hover the cursor over the input submit button.
     3. The background color will transition from black to gold.
@@ -78,6 +81,10 @@ The project has media queries that makes the following elements responsive:
 7. Contact overlay layout
 
 One bug I have encountered is with the navigational bar. The navigational links seem to appear slightly off center, from what I can identify this is due to an issue with the size of the anchor tags.
+This has now been fixed as my mentor identified the bug.
+
+Another issue that my test users and mentor identified was the white space between the gallery images and footer. I have attempted to troubleshoot this and debug the code
+but I was unable to find a solution to this problem.
 
 ## Deployment
 TBA
@@ -97,3 +104,7 @@ TBA
 - I received a large majority of inspiration from the CSS Fundamentals Mini Project [Love Running](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/8b3e9adaef764e1d962a85668c799cdd/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%408b3e9adaef764e1d962a85668c799cdd).
 - My mid point review session with my mentor gave me the idea to amend the Gallery layout to a masonry style instead of the previous grid I was trying to achieve.
 - The Tutor support team offered me assistance that allowed me to align the "About Us" text in the center of the hero image on the Home page.
+- My Mentor informed me that the bug on the navigational bar was due to the padding initially being removed, this has since been amended.
+- I reference [W3Schools](https://www.w3schools.com/) as the online library that I used for basic troubleshooting.
+- The CSS code has been validated using the [CSS W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- The HTML code has been validated using the [HTML W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
