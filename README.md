@@ -37,6 +37,10 @@ The contact form has a simple layout, a box split into two sections, one contain
 
 ## Technologies Used
 
+- HTML
+
+- CSS
+
 - [FontAwesome](https://fontawesome.com/)
     - The project uses **FontAwesome** to include the social media icons in the footer
 
@@ -89,7 +93,10 @@ but I was unable to find a solution to this problem.
 Finally when the navigational links are used too quickly it can cause the webpage to load slower, I believe this is due to the file size of the images.
 
 ## Deployment
-TBA
+This site is hosted using GitHub pages, I have deployed the site directly from the master branch. Now it has been deployed this site will update automatically following any new commits to the master.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/Boofy360/fade-zone-barbers into your terminal. 
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 
